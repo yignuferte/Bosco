@@ -192,23 +192,23 @@ exports.downloadMenu = (prefix) => {
 }
 exports.rulesBot = (prefix) => {
     return `
------[ RULES ]-----
+-----[ Laçin Eke ]-----
 
-1. ᴅᴏɴᴛ sᴘᴀᴍ
+1. Abone OL https://youtube.com/c/LacinEke
 
-2. ᴅᴏɴᴛ ᴄᴀʟʟ
+2. Telegrama KATIL https://t.me/rlchat
 
-3. ᴅᴏɴT ᴘᴍ
+3. WhatsApp Grubuma Katıl https://chat.whatsapp.com/BqwU4hCuq0d3AOTerPVatJ 
 
-ᴛᴏ ᴜsᴇ ʙᴏᴛ ${prefix}ᴍᴇɴᴜ
+Botu kullanmak için ${prefix}ᴍᴇɴᴜ
 
-ᴏᴡɴᴇʀ ʙᴏᴛ:
-wa.me/6587255582
+Bot'un sahibi Laçin Eke:
+wa.me/+905538834272
 `
 }
 exports.Menu = (prefix) => {
 return `
-╔════ɢᴀᴍᴇ-ᴍᴇɴᴜ══════❥︎
+╔════oyun-Menü══════❥︎
 ╠➤ ${prefix}slot
 ╠➤ ${prefix}limitgame
 ╠➤ ${prefix}gelud 
@@ -229,7 +229,7 @@ return `
 ╠➤ ${prefix}tebakgambar
 ╠➤ ${prefix}tebakbendera
 ╠➤ ${prefix}suit 
-╠════ғᴜɴ-ᴍᴇɴᴜ══════❥︎
+╠════Eğlence-Menü══════❥︎
 ╠➤ ${prefix}mining
 ╠➤ ${prefix}togel
 ╠➤ ${prefix}cekwatak
@@ -250,7 +250,7 @@ return `
 ╠➤ ${prefix}babi
 ╠➤ ${prefix}cekganteng
 ╠➤ ${prefix}cekcantik
-╠════ᴏᴛʜᴇʀ-ᴍᴇɴᴜ══════❥︎
+╠════Diğer-Menüler══════❥︎
 ╠➤ ${prefix}brainly 
 ╠➤ ${prefix}shopee 
 ╠➤ ${prefix}playstore 
@@ -307,7 +307,7 @@ return `
 ╠➤ ${prefix}nekopoicosplay
 ╠➤ ${prefix}cosplayanime
 ╠➤ ${prefix}nekopoisearch
-╠════ᴏᴡɴᴇʀ-ᴍᴇɴᴜ══════❥︎
+╠════KURUCU-MENÜ══════❥︎
 ╠➤ ${prefix}bc 
 ╠➤ ${prefix}term
 ╠➤ ${prefix}eval
@@ -321,7 +321,7 @@ return `
 ╠➤ ${prefix}sewa add/del 
 ╠➤ ${prefix}premium add 
 ╠➤ ${prefix}premium del 
-╠════ɢʀᴏᴜᴘ-ᴍᴇɴᴜ══════❥︎
+╠════GRUP-MENÜ══════❥︎
 ╠➤ ${prefix}ceksewa
 ╠➤ ${prefix}group 
 ╠➤ ${prefix}afk 
@@ -344,7 +344,7 @@ return `
 ╠➤ ${prefix}welcome 
 ╠➤ ${prefix}antilink 
 ╠➤ ${prefix}leveling 
-╠════ᴅᴏᴡɴʟᴏᴀᴅ-ᴍᴇɴᴜ══════❥︎
+╠════İndirme-Menüsü══════❥︎
 ╠➤ ${prefix}fb 
 ╠➤ ${prefix}igdl 
 ╠➤ ${prefix}igdl2 
@@ -364,7 +364,7 @@ return `
 }
 exports.infoMenu = (prefix) => {
 return `
-╔════ɪɴғᴏ-ᴍᴇɴᴜ══════❥︎
+╔════Bilgi-Menüsü══════❥︎
 ╠➤ ${prefix}update
 ╠➤ ${prefix}level
 ╠➤ ${prefix}rules
@@ -381,8 +381,16 @@ return `
 ╠➤ ${prefix}cekpremium
 ╠➤ ${prefix}listpremium
 ╠➤ ${prefix}sourcecode
-╠➤ ${prefix}bugreport *keluhan*
+╠➤ ${prefix}bugreport *RaporlayacağınızBUG*
 ╚════════════════❥︎
-
+╔════YOUTUBE══════❥︎
+╠➤ https://youtube.com/c/LacinEke
+╚════════════════❥︎
+╔════TELEGRAM══════❥︎
+╠➤ https://t.me/rlchat
+╚════════════════❥︎
+╔════WHATSAPP-GRUP══════❥︎
+╠➤ https://chat.whatsapp.com/BqwU4hCuq0d3AOTerPVatJ
+╚════════════════❥︎
 `
 } 
