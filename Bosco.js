@@ -1,6 +1,6 @@
 /* 
 Don't change credits🥲🚶
-Sourcecode https://github.com/pepesir/Bosco
+Sourcecode https://github.com/yignuferte/Bosco
 
 Want to recode? yes, it's up to you as long as you don't change the watermark
 Don't sell the SC 😐👌
@@ -2543,7 +2543,7 @@ teks = `
               fs.writeFileSync(`./${sender}.jpeg`, await getBuffer(wipi))
 		      buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `next`},type:1},{buttonId:`${prefix}owner`,buttonText:{displayText:'owner'},type:1}]
               imageMsg = ( await bosco.prepareMessage(from, fs.readFileSync(`./${sender}.jpeg`), 'imageMessage', {thumbnail: Buffer.alloc(0)})).message.imageMessage
-              buttonsMessage = {footerText:'© 𝒎𝒂𝒅𝒆 𝒃𝒚 𝒑𝒆𝒑𝒆', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'© 𝒎𝒂𝒅𝒆 𝒃𝒚 Laçin Eke', imageMessage: imageMsg,
               contentText:`_Click Next to go to the next picture_`,buttons,headerType:4}
               prep = await bosco.prepareMessageFromContent(from,{buttonsMessage},{quoted: mek})
               bosco.relayWAMessage(prep)
@@ -2941,13 +2941,13 @@ case 'emoji':
 					if (!isGroup) return reply(mess.group())
 					if (!isOwner) return reply(mess.owner)
 					bosco.blockUser (`${body.slice(7)}@c.us`, "add")
-					bosco.sendMessage(from, `*ʙʟᴏᴄᴋᴇᴅ* ${body.slice(7)}@c.us`, text)
+					bosco.sendMessage(from, `*ENGELLENDİ!* ${body.slice(7)}@c.us`, text)
 					break
 		case 'unblock':
 					if (!isGroup) return reply(mess.group)
 					if (!isOwner) return reply(mess.owner)
 				    bosco.blockUser (`${body.slice(9)}@c.us`, "remove")
-					bosco.sendMessage(from, `*ᴜɴʙʟᴏᴄᴋᴇᴅ* ${body.slice(9)}@c.us`, text)
+					bosco.sendMessage(from, `*ENGEL KALDIRILDI!* ${body.slice(9)}@c.us`, text)
 					break
          case 'getpic':
 					if (!isGroup) return reply(mess.only.group)
@@ -3289,7 +3289,7 @@ if (Number(oi2) >= 50) return reply('*Most!*')
 				if (mek.message.extendedTextMessage === undefined || mek.message.extendedTextMessage === null) return reply('*Reply To Target*')
 			demote = mek.message.extendedTextMessage.contextInfo.participant
 		    bosco.groupDemoteAdmin(from, [demote])
-						reply('*Successful Demote an Admin*')
+						reply('*Bir Yöneticiyi Başarıyla Yetkisi alındı!*')
 						break
 					case 'promote':
 					if (!isGroup) return reply(mess.only.group)
@@ -3297,7 +3297,7 @@ if (Number(oi2) >= 50) return reply('*Most!*')
 				  if (mek.message.extendedTextMessage === undefined || mek.message.extendedTextMessage === null) return reply('*Reply To Target*')
 			promote = mek.message.extendedTextMessage.contextInfo.participant
 		    bosco.groupMakeAdmin(from, [promote])
-						reply('*Successful Promoted an Admin')
+						reply('*Başarılı Bir Şekilde Yönetici Yetkisi verildi! ')
 						break
                 case 'linkgc':
 				if (!isGroup) return reply(mess.only.group)
@@ -3311,7 +3311,7 @@ if (Number(oi2) >= 50) return reply('*Most!*')
          if (!isGroupAdmins) return reply(mess.only.admin)
           json = ['action', 'inviteReset', from]
          bosco.query({json, expect200: true})
-          reply('*Succes Reset Group Link*')
+          reply('*Grup Linki Başarıyla Sıfırlandı!*')
          break
      case 'tagme':
                   var nomqm = mek.participant
