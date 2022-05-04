@@ -1,6 +1,8 @@
 exports.gameMenu = (prefix) => {
     return `
-╔════ɢᴀᴍᴇ-ᴍᴇɴᴜ══════❥︎
+╔════OYUN-MENÜSÜ══════❥︎
+╠➤ ${prefix}eke
+╠➤ ${prefix}telegram
 ╠➤ ${prefix}slot
 ╠➤ ${prefix}limitgame
 ╠➤ ${prefix}gelud @tag
@@ -26,7 +28,9 @@ exports.gameMenu = (prefix) => {
 }
 exports.funMenu = (prefix) => {
     return `
-╔════ғᴜɴ-ᴍᴇɴᴜ══════❥︎
+╔════EĞLENCE-MENÜSÜ══════❥︎
+╠➤ ${prefix}eke
+╠➤ ${prefix}telegram
 ╠➤ ${prefix}mining
 ╠➤ ${prefix}togel
 ╠➤ ${prefix}cekwatak
@@ -52,7 +56,9 @@ exports.funMenu = (prefix) => {
 }
 exports.otherMenu = (prefix) => {
     return `
-╔════ᴏᴛʜᴇʀ-ᴍᴇɴᴜ══════❥︎
+╔════DİĞER-MENÜLER══════❥︎
+╠➤ ${prefix}eke
+╠➤ ${prefix}telegram
 ╠➤ ${prefix}brainly *query*
 ╠➤ ${prefix}shopee *product*
 ╠➤ ${prefix}playstore *query*
@@ -72,7 +78,9 @@ exports.otherMenu = (prefix) => {
 }
 exports.stickerMenu = (prefix) => {
     return `
-╔════sᴛɪᴄᴋᴇʀ-ᴍᴇɴᴜ══════❥︎
+╔════STİCKER-MENÜSÜ══════❥︎
+╠➤ ${prefix}eke
+╠➤ ${prefix}telegram
 ╠➤ ${prefix}dadu
 ╠➤ ${prefix}doge
 ╠➤ ${prefix}toimg
@@ -82,17 +90,19 @@ exports.stickerMenu = (prefix) => {
 ╠➤ ${prefix}attp *teks*
 ╠➤ ${prefix}stickeranime
 ╠➤ ${prefix}semoji *emoji*
-╠➤ ${prefix}sticker *reply foto/video*
-╠➤ ${prefix}smeme *teks|teks*
-╠➤ ${prefix}swm *pack|author*
-╠➤ ${prefix}take *pack|author* 
-╠➤ ${prefix}tovideo *reply sgif*
+╠➤ ${prefix}sticker *Fotoğrafa/Videoya yanıt vererek o komutu yaz*
+╠➤ ${prefix}smeme *metin|metin*
+╠➤ ${prefix}swm *paket|yazar/yaratıcı*
+╠➤ ${prefix}take *paket|yazar/yaratıcı* 
+╠➤ ${prefix}tovideo *GİF'e yanıtlayarak yap!*
 ╚════════════════❥︎
 `
 }
 exports.wibuMenu = (prefix) => {
     return `
 ╔════ᴡɪʙᴜ-ᴍᴇɴᴜ══════❥︎
+╠➤ ${prefix}eke
+╠➤ ${prefix}telegram
 ╠➤ ${prefix}loli
 ╠➤ ${prefix}manga
 ╠➤ ${prefix}anime 
@@ -124,17 +134,19 @@ exports.wibuMenu = (prefix) => {
 }
 exports.ownerMenu = (prefix) => {
     return `
-╔════ᴏᴡɴᴇʀ-ᴍᴇɴᴜ══════❥︎
-╠➤ ${prefix}bc *teks*
+╔════KURUCU-MENÜSÜ══════❥︎
+╠➤ ${prefix}eke
+╠➤ ${prefix}telegram
+╠➤ ${prefix}bc *metin*
 ╠➤ ${prefix}term
 ╠➤ ${prefix}eval
 ╠➤ ${prefix}reset
 ╠➤ ${prefix}clearall
-╠➤ ${prefix}join *link gc*
+╠➤ ${prefix}join *GrupLinki*
 ╠➤ ${prefix}shutdown
 ╠➤ ${prefix}getquoted
-╠➤ ${prefix}addupdate *fiturnya*
-╠➤ ${prefix}exif *nama|author*
+╠➤ ${prefix}addupdate *özellikleri*
+╠➤ ${prefix}exif *isim|yazar/yayıncı*
 ╠➤ ${prefix}sewa add/del *waktunya*
 ╠➤ ${prefix}premium add @tag|nomor
 ╠➤ ${prefix}premium del @tag|nomor
@@ -144,26 +156,28 @@ exports.ownerMenu = (prefix) => {
 
 exports.groupMenu = (prefix) => {
     return`
-╔════ɢʀᴏᴜᴘ-ᴍᴇɴᴜ══════❥︎
+╔════GRUP-MENÜSÜ══════❥︎
+╠➤ ${prefix}eke
+╠➤ ${prefix}telegram
 ╠➤ ${prefix}ceksewa
 ╠➤ ${prefix}group 
-╠➤ ${prefix}afk *alasan*
-╠➤ ${prefix}sider *reply chat bot*
+╠➤ ${prefix}afk *AFK Kalma Sebebini yaz.*
+╠➤ ${prefix}sider *Sohbet botunu yanıtla.*
 ╠➤ ${prefix}kickall
 ╠➤ ${prefix}infogrup
 ╠➤ ${prefix}promote
 ╠➤ ${prefix}demote
 ╠➤ ${prefix}listonline
-╠➤ ${prefix}tagall *teks*
+╠➤ ${prefix}tagall *Etiketlenecek yazı.*
 ╠➤ ${prefix}leave
 ╠➤ ${prefix}mute
 ╠➤ ${prefix}unmute
-╠➤ ${prefix}kick *reply*
-╠➤ ${prefix}add *+62xxxxxx*
+╠➤ ${prefix}kick *Yanıtlayarak yaz bu komutu*
+╠➤ ${prefix}add *+90numara (katılmaz ise + silerek yazın)*
 ╠➤ ${prefix}setgrupname
 ╠➤ ${prefix}setppgrup
 ╠➤ ${prefix}setdesc
-╠➤ ${prefix}hidetag *teks/reply teks*
+╠➤ ${prefix}hidetag *metin/metni yanıtla*
 ╠➤ ${prefix}welcome *enable | disable*
 ╠➤ ${prefix}antilink *enable | disable*
 ╠➤ ${prefix}leveling *enable | disable*
@@ -172,7 +186,9 @@ exports.groupMenu = (prefix) => {
 }
 exports.downloadMenu = (prefix) => {
     return `
-╔════ᴅᴏᴡɴʟᴏᴀᴅ-ᴍᴇɴᴜ══════❥︎
+╔════İNDİRME-MENÜSÜ══════❥︎
+╠➤ ${prefix}eke
+╠➤ ${prefix}telegram
 ╠➤ ${prefix}fb 
 ╠➤ ${prefix}igdl 
 ╠➤ ${prefix}igdl2 
@@ -186,11 +202,11 @@ exports.downloadMenu = (prefix) => {
 ╠➤ ${prefix}tiktoknowm 
 ╠➤ ${prefix}tiktokaudio
 ╠➤ ${prefix}mediafire 
-╠➤ ${prefix}nhentaipdf *code*
+╠➤ ${prefix}nhentaipdf *kod*
 ╚════════════════❥︎
 `
 }
-exports.rulesBot = (prefix) => {
+exports.eke = (prefix) => {
     return `
 -----[ Laçin Eke ]-----
 
@@ -209,6 +225,8 @@ wa.me/+905538834272
 exports.Menu = (prefix) => {
 return `
 ╔════oyun-Menü══════❥︎
+╠➤ ${prefix}eke
+╠➤ ${prefix}telegram
 ╠➤ ${prefix}slot
 ╠➤ ${prefix}limitgame
 ╠➤ ${prefix}gelud 
@@ -365,6 +383,8 @@ return `
 exports.infoMenu = (prefix) => {
 return `
 ╔════Bilgi-Menüsü══════❥︎
+╠➤ ${prefix}eke
+╠➤ ${prefix}telegram
 ╠➤ ${prefix}update
 ╠➤ ${prefix}level
 ╠➤ ${prefix}rules
@@ -393,4 +413,13 @@ return `
 ╠➤ https://chat.whatsapp.com/BqwU4hCuq0d3AOTerPVatJ
 ╚════════════════❥︎
 `
-} 
+}
+exports.telegram = (prefix) => {
+return `
+╔════TELEGRAM══════❥︎
+╠➤ *GRUP* https://t.me/rlchat
+╠══════════════════❥︎
+╠➤ *KANAL* https://t.me/reklamligi
+╚══════════════════❥︎
+`
+}
